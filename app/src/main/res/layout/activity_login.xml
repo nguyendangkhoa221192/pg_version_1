@@ -26,7 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/login_emailid"
+            android:id="@+id/login_userid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -71,7 +71,7 @@
             android:paddingTop="8dp">
 
             <CheckBox
-                android:id="@+id/show_hide_password"
+                android:id="@+id/login_remember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -90,6 +90,8 @@
             <!--android:textColor="@color/white"-->
             <!--android:textSize="14sp" />-->
         </LinearLayout>
+
+
 
         <Button
             android:id="@+id/loginBtn"
