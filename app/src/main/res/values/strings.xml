@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PG_App_Version_1</string>
+    <string name="app_name">PG APP Version 1</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -12,7 +12,21 @@
     <string name="passowrd">Password</string>
     <string name="login">Đăng Nhập</string>
     <string name="remember_pwd">Lưu mật khẩu</string>
-    <string name="hide_pwd">Hide Password</string>
     <string name="error_login">Tên đăng nhập hoặc mật khẩu không đúng!</string>
+    <string name="author_message_loading">Đang xác thực. Vui lòng chờ...</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_store">Chọn store</string>
+    <string name="nav_report">Báo cáo thống kê</string>
+    <string name="nav_logout">Đăng xuất</string>
+    
+    <!-- Home Fragment -->
+    <string name="home_major">Nghiệp vụ</string>
+    <string name="home_report">Báo cáo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

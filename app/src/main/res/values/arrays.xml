@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major_buttons_text">
+        <item>Check in</item>
+        <item>Bán hàng</item>
+        <item>Check out</item>
+        <item>Chấm vị trí</item>
+    </string-array>
+
+    <string-array name="report_buttons_text">
+        <item>Số suất</item>
+        <item>CT đơn hàng</item>
+        <item>Thống kê</item>
+    </string-array>
+
+</resources>
