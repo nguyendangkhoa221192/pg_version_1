@@ -1,5 +1,6 @@
 package dev.khoand.pg_app_version_1.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,6 +12,7 @@ import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import dev.khoand.pg_app_version_1.Activity.MapsActivity;
 import dev.khoand.pg_app_version_1.Adapter.AdapterMenuGridView;
 import dev.khoand.pg_app_version_1.R;
 
@@ -35,6 +37,8 @@ public class Home extends Fragment {
             R.mipmap.mic_order_detail,
             R.mipmap.mic_report
     };
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -82,10 +86,15 @@ public class Home extends Fragment {
                     Toast.makeText(getActivity(), "ccc", Toast.LENGTH_SHORT).show();
                     break;
                 case 3:
-                    Toast.makeText(getActivity(), "ddd", Toast.LENGTH_SHORT).show();
+                    handleCheckLocation();
                     break;
             }
         }
+    }
+
+    private void handleCheckLocation() {
+        Intent i = new Intent(getActivity(), MapsActivity.class);
+        getActivity().startActivity(i);
     }
 
     private void handleEventClickReport(int i) {
